@@ -198,7 +198,7 @@ else:
         st.image("grafico_barras.png", caption='Producciones estrenadas en Netflix por año', width=700)
         pass
     elif grafico_seleccionado == 'Mapa idiomas del mundo':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este mapa muestra diferentes parte del Perú, y muestra específicamente diferentes lugares en donde se hablan diferentes lenguajes</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este mapa muestra diferentes parte del Perú, y muestra específicamente diferentes lugares en donde se hablan diferentes lenguajes.</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
         with open("mapa_idiomas.html", "r", encoding="utf-8") as f:
