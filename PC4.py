@@ -144,7 +144,7 @@ elif  pagina_seleccionada == 'Experiencia':
     # Por ejemplo, puedes agregar un emoji de video 🎥 
 
     # Agregamos un video realizado en las practicas anteriores
-    st.video("forywhile.mp4")
+    st.video("https://www.youtube.com/watch?v=DEjq8ROwR3s")
 
     # st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E"): Esta línea está mostrando un video en la aplicación web.
     # La función video toma como primer argumento la URL del video que se desea mostrar.
@@ -175,7 +175,7 @@ else:
     st.markdown("<h1 style='text-align: center;'>Gráficos</h1>", unsafe_allow_html=True)
 
     # Creamos una lista de gráficos
-    graficos = ['Distribución de tipos de contenido en Netflix', 'Producciones estrenadas en Netflix por año', 'Mapa idiomas del mundo']
+    graficos = ['Distribución de tipos de contenido en Netflix', 'Producciones estrenadas en Netflix por año', 'Mapa idiomas del Perú']
 
     # Creamos un cuadro de selección en la página de gráficos
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
@@ -198,7 +198,7 @@ else:
         st.image("grafico_barras.png", caption='Producciones estrenadas en Netflix por año', width=700)
         pass
     elif grafico_seleccionado == 'Mapa idiomas del mundo':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu mapa</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Este mapa muestra diferentes parte del Perú, y muestra específicamente diferentes lugares en donde se hablan diferentes lenguajes</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
         with open("mapa_idiomas.html", "r", encoding="utf-8") as f:
