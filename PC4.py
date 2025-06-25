@@ -197,7 +197,7 @@ else:
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Este gráfico de barras indica cómo ha aumentado de forma exponencial la cantidad de producciones en Netflix desde los años 2010 en adelante. Se observa que las películas (barras azules) siempre han sido más numerosas que las series (barras rosadas), aunque ambas crecieron considerablemente.El pico de producciones ocurre alrededor del 2018–2019, coincidiendo con la etapa en la que Netflix invirtió más en contenido original a nivel global.</div>", unsafe_allow_html=True)
         st.image("grafico_barras.png", caption='Producciones estrenadas en Netflix por año', width=700)
         pass
-    elif grafico_seleccionado == 'Mapa idiomas del mundo':
+    elif grafico_seleccionado == 'Mapa idiomas del Perú':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Este mapa muestra diferentes parte del Perú, y muestra específicamente diferentes lugares en donde se hablan diferentes lenguajes.</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
